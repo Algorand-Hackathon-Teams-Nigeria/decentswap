@@ -83,7 +83,7 @@ def dispute_resolution_approval_program():
     return on_dispute
 
 
-
+@app.external
 def rewards_distribution_approval_program():
 
     # Logic to handle rewards distribution
