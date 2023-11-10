@@ -28,9 +28,11 @@ def deploy(
         on_update=algokit_utils.OnUpdate.AppendApp,
     )
 
-    name = "world"
-    response = app_client.hello(name=name)
-    logger.info(
-        f"Called hello on {app_spec.contract.name} ({app_client.app_id}) "
-        f"with name={name}, received: {response.return_value}"
-    )
+    # name = "world"
+    # response = app_client.hello(name=name)
+    # logger.info(
+    #     f"Called hello on {app_spec.contract.name} ({app_client.app_id}) "
+    #     f"with name={name}, received: {response.return_value}"
+    # )
+
+    logger.info(f"Deployed {app_spec.contract.name} ({app_client.app_id})")

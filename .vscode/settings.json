@@ -11,7 +11,7 @@
     "**/__pycache__": true,
     ".idea": true
   },
-  
+
   // Python
   "python.analysis.extraPaths": ["${workspaceFolder}/smart_contracts"],
   "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
@@ -21,12 +21,13 @@
       // Prevent default import sorting from running; Ruff will sort imports for us anyway
       "source.organizeImports": false
     },
-    "editor.defaultFormatter": null
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "python.testing.pytestEnabled": true,
   "python.formatting.provider": "black",
-  
+
   // On Windows, if execution policy is set to Signed (default) then it won't be able to activate the venv
   //  so instead let's set it to RemoteSigned for VS Code terminal
   "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "RemoteSigned"],
+  "python.analysis.typeCheckingMode": "basic"
 }
