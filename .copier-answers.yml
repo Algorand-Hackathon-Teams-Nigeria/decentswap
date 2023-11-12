@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 0.5.1
+_src_path: gh:algorandfoundation/algokit-fullstack-template
+author_email: anebiemmanuel@gmail.com
+author_name: Emmanuel Anebi
+contract_name: decent_swap
+deployment_language: python
+ide_vscode: true
+preset_name: starter
+project_name: decent-swap-3
+use_python_black: true
+use_python_pytest: true
+
